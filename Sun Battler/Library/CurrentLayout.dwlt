@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 32
+  controlID: 69
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 33
+  controlID: 70
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 34
+  controlID: 14
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -337,19 +337,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Jun kang Ong
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Jun kang Ong
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Han\Documents\GitHub\iprog-project\Sun Battler
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 180a0000
-    m_LastClickedID: 2584
+    m_SelectedIDs: ca090000
+    m_LastClickedID: 2506
     m_ExpandedIDs: 00000000ca09000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -554,9 +554,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.060131073, y: -6.3589597, z: -9.763804}
+    m_Target: {x: -6.8157654, y: -9.125444, z: -7.738122}
     speed: 2
-    m_Value: {x: -0.060131073, y: -6.3589597, z: -9.763804}
+    m_Value: {x: -6.8157654, y: -9.125444, z: -7.738122}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -584,13 +584,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.025340442, y: -0.9653962, z: 0.23840962, w: 0.10261107}
+    m_Target: {x: 0.103132874, y: -0.89495933, z: 0.2745026, w: 0.3362437}
     speed: 2
-    m_Value: {x: 0.025340442, y: -0.9653962, z: 0.23840962, w: 0.10261107}
+    m_Value: {x: 0.103132874, y: -0.89495933, z: 0.2745026, w: 0.3362437}
   m_Size:
-    m_Target: 18.479204
+    m_Target: 22.981817
     speed: 2
-    m_Value: 18.479204
+    m_Value: 22.981817
   m_Ortho:
     m_Target: 0
     speed: 2
