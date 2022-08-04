@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: 9260104efef77b842bb0f4847e9fa3ae
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: back engine
+    100002: back engine.001
+    100004: back wing
+    100006: back wing.001
+    100008: body
+    100010: body.001
+    100012: body.002
+    100014: body.003
+    100016: body.004
+    100018: cockpit
+    100020: cockpit(enemy)
+    100022: Cube
+    100024: Cube.001
+    100026: Cube.002
+    100028: Cube.003
+    100030: Cube.004
+    100032: engine(enemy)
+    100034: engine(enemy).001
+    100036: engine.001
+    100038: engine.002
+    100040: //RootNode
+    100042: flap_1
+    100044: flap_1.001
+    100046: flap_2
+    100048: flap_2.001
+    100050: head
+    100052: head.001
+    100054: jet
+    100056: jet.001
+    100058: jet.002
+    100060: jet.003
+    100062: wing
+    100064: wing.001
+    100066: wing.002
+    100068: wing.003
+    400000: back engine
+    400002: back engine.001
+    400004: back wing
+    400006: back wing.001
+    400008: body
+    400010: body.001
+    400012: body.002
+    400014: body.003
+    400016: body.004
+    400018: cockpit
+    400020: cockpit(enemy)
+    400022: Cube
+    400024: Cube.001
+    400026: Cube.002
+    400028: Cube.003
+    400030: Cube.004
+    400032: engine(enemy)
+    400034: engine(enemy).001
+    400036: engine.001
+    400038: engine.002
+    400040: //RootNode
+    400042: flap_1
+    400044: flap_1.001
+    400046: flap_2
+    400048: flap_2.001
+    400050: head
+    400052: head.001
+    400054: jet
+    400056: jet.001
+    400058: jet.002
+    400060: jet.003
+    400062: wing
+    400064: wing.001
+    400066: wing.002
+    400068: wing.003
+    2100000: Material.006
+    2100002: Material
+    2100004: Material.002
+    2100006: Material.003
+    2100008: Material.008
+    2100010: Material.007
+    2100012: Material.005
+    2100014: engine
+    2100016: flaps
+    2100018: jet
+    2100020: body
+    2100022: No Name
+    2100024: wing
+    2100026: wing(ENEMY)
+    2300000: back engine
+    2300002: back engine.001
+    2300004: back wing
+    2300006: back wing.001
+    2300008: body
+    2300010: body.001
+    2300012: body.002
+    2300014: body.003
+    2300016: body.004
+    2300018: cockpit
+    2300020: cockpit(enemy)
+    2300022: Cube
+    2300024: Cube.001
+    2300026: Cube.002
+    2300028: Cube.003
+    2300030: Cube.004
+    2300032: engine(enemy)
+    2300034: engine(enemy).001
+    2300036: engine.001
+    2300038: engine.002
+    2300040: flap_1
+    2300042: flap_1.001
+    2300044: flap_2
+    2300046: flap_2.001
+    2300048: head
+    2300050: head.001
+    2300052: jet
+    2300054: jet.001
+    2300056: jet.002
+    2300058: jet.003
+    2300060: wing
+    2300062: wing.001
+    2300064: wing.002
+    2300066: wing.003
+    3300000: back engine
+    3300002: back engine.001
+    3300004: back wing
+    3300006: back wing.001
+    3300008: body
+    3300010: body.001
+    3300012: body.002
+    3300014: body.003
+    3300016: body.004
+    3300018: cockpit
+    3300020: cockpit(enemy)
+    3300022: Cube
+    3300024: Cube.001
+    3300026: Cube.002
+    3300028: Cube.003
+    3300030: Cube.004
+    3300032: engine(enemy)
+    3300034: engine(enemy).001
+    3300036: engine.001
+    3300038: engine.002
+    3300040: flap_1
+    3300042: flap_1.001
+    3300044: flap_2
+    3300046: flap_2.001
+    3300048: head
+    3300050: head.001
+    3300052: jet
+    3300054: jet.001
+    3300056: jet.002
+    3300058: jet.003
+    3300060: wing
+    3300062: wing.001
+    3300064: wing.002
+    3300066: wing.003
+    4300000: cockpit
+    4300002: wing
+    4300004: engine.001
+    4300006: back wing
+    4300008: back engine
+    4300010: head
+    4300012: body.001
+    4300014: engine(enemy).001
+    4300016: flap_1
+    4300018: flap_2
+    4300020: jet
+    4300022: jet.001
+    4300024: Cube
+    4300026: Cube.002
+    4300028: engine(enemy)
+    4300030: flap_1.001
+    4300032: flap_2.001
+    4300034: jet.002
+    4300036: jet.003
+    4300038: Cube.003
+    4300040: Cube.004
+    4300042: body.004
+    4300044: body
+    4300046: wing.003
+    4300048: wing.002
+    4300050: cockpit(enemy)
+    4300052: body.003
+    4300054: Cube.001
+    4300056: wing.001
+    4300058: engine.002
+    4300060: back wing.001
+    4300062: back engine.001
+    4300064: head.001
+    4300066: body.002
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
