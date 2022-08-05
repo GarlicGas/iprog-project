@@ -345,7 +345,7 @@
     <Compile Include="Assets\Scripts\movement.cs" />
     <Compile Include="Assets\Scripts\movement_2.cs" />
     <Compile Include="Assets\Scripts\OnMissile.cs" />
-    <Compile Include="Assets\Scripts\spawnscript.cs" />
+    <Compile Include="Assets\Scripts\spawnscript1.cs" />
     <Compile Include="Assets\Scripts\TurretRotate.cs" />
     <None Include="Assets\DaydreamElements\Elements\ObjectManipulationDemo\Shaders\FlexLaserReticle.shader" />
     <None Include="Assets\DaydreamElements\Elements\ArmModels\Demo\Shaders\ModeHighlight.shader" />
