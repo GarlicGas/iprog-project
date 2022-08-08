@@ -13,12 +13,7 @@ public class spawnscript : MonoBehaviour
 
     void Update()
     {
-        if (spawnCount < maxSpawn)
-        {
-            StartCoroutine(Spawn());
-            spawnCount++;
-        }
-        enemycount = GameObject.FindGameObjectWithTag("enemy");
+        enemycount = GameObject.FindGameObjectWithTag("Enemy");
         if (enemycount == null)
         {
             --spawnCount;

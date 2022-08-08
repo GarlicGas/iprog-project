@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 7312573069341567131}
   - component: {fileID: 1667483913300339510}
   m_Layer: 0
-  m_Name: Minigun_turret
+  m_Name: Minigun_turret lvl3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
