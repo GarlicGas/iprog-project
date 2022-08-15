@@ -17,8 +17,8 @@ public class enemyShoot : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 StartCoroutine(FireEnemy());
+                Debug.Log("fired");
             }
-            Debug.DrawLine(missile.transform.position, target.position, Color.red, 200f);
     }
 
     IEnumerator FireEnemy()

@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class EnemyOnMissile : MonoBehaviour
 {
-    private float speed = 10;
-    private Transform target;
+    private float speed = 20;
+    public Transform target;
     private int enemyNum;
-    private int rng;
+    private bool fired;
+    private int KillRng;
+    public ParticleSystem explosion;
+    private float lifetime = 5f;
 
     void Start()
     {
+        fired = false;
         enemyNum = Random.Range(1,3);
         switch (enemyNum)
         {
@@ -37,8 +41,20 @@ public class EnemyOnMissile : MonoBehaviour
 
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
 
-        rng = Random.Range(1, 100);
-        Debug.Log(rng);
+        if(fired == false)
+        {
+            SelfDestruct();
+            fired = true;
+        }
+
+        if (lifetime > 0)
+        {
+            lifetime -= Time.deltaTime;
+        }
+        else if (lifetime <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void LockTarget(Transform tgt)
@@ -46,20 +62,40 @@ public class EnemyOnMissile : MonoBehaviour
         target = tgt;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    public void SelfDestruct()
     {
-        
-        if (rng <= 30)
+        var Rng = Random.Range(0, 100);
+        Debug.Log(Rng);
+        if (Rng <= 30)
         {
-            Debug.Log("hit self");
+            explosion.Play();
             Destroy(gameObject);
         }
-        else
+    }
+
+    //does not work
+    public void killSelf()
+    {
+        KillRng = Random.Range(0, 100);
+        Debug.Log(KillRng);
+        if (KillRng <= 50)
         {
-            if(collision.gameObject.tag != "Enemy")
+            target = GameObject.FindGameObjectWithTag("Enemy").transform;
+
+            Vector3 tgtPos2 = target.position - transform.position;
+            Vector3 turRotation2 = Vector3.RotateTowards(transform.forward, tgtPos2, speed * Time.deltaTime, 0);
+            transform.rotation = Quaternion.LookRotation(turRotation2);
+
+            transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+            if (collision.gameObject.tag != "Enemy")
             {
+                explosion.Play();
                 Destroy(gameObject);
             }
-        }
     }
 }
