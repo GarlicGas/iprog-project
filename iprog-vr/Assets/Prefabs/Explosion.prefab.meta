@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:iprog-vr/Assets/Prefabs/Explosion.prefab.meta
 guid: 173505509997cd74094028d2705f7186
 PrefabImporter:
+=======
+guid: 1411bd476cb85bf47870b6b70caf0138
+folderAsset: yes
+DefaultImporter:
+>>>>>>> Stashed changes:iprog-vr/Assets/UI assets.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
